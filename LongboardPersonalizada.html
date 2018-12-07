@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tablas</title>
+	<link rel="stylesheet" href="CSS/EstilosLongboard.css">
+	<link rel="stylesheet" type="text/css" href="FontAwesome/css/all.css">
+</head>
+<body>
+	<header id="encabezado">
+		<nav id="menu">
+			<ul>
+				<li><a href="Principal.html" title="">Principal</a></li>
+				<li class="desplegar"><a href="Productos.html" title="">Productos</a>
+					<div class="submenu">
+						<a href="Longboards.html">Longboards</a>
+						<a href="#">Tablas</a>
+						<a href="Llantas.html">Llantas</a>
+						<a href="Trucks.html">Trucks</a>
+					</div>
+				</li>	
+				<li class="desplegar"><a href="SobreNosotros.html" title="">Sobre nosotros</a>
+					<div class="submenu">
+						<a href="#">Misión</a>
+						<a href="#">Visión</a>
+					</div>
+				</li>
+				<li><a href="Contactenos.html" title="">Contáctenos</a></li>
+				<li><a href="Galeria.html" title="">Galería</a></li>
+				<li><a href="LongboardPersonalizada.html" title="">Haz tu propia longboard</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- <br><br><br><br><br><br><br><br><br> -->
+	<h1>Haz tu propia longboard</h1>
+		<section>
+			<label for="Tabla">Tabla:</label>
+			<select name="Tabla" id="Tabla">
+				<option value="Splinter Series Crest 40">Splinter Series Crest 40</option>
+				<option value="Fishbowl">Fishbowl</option>
+				<option value="Tan Tien Topo">Tan Tien Topo</option>
+				<option value="WIM 35">WIM 35</option>
+				<option value="RockSteady Brawlers">RockSteady Brawlers </option>
+				<option value="Sama 2015">Sama 2015</option>
+			</select>
+			<br>
+			<label for="Truck">Truck:</label>
+			<select name="Truck" id="Truck">
+				<option value="Indy Reverse">Indy Reverse</option>
+				<option value="Mindless Voodoo">Mindless Voodoo</option>
+				<option value="Independent">Independent</option>
+				<option value="Paris Truck">Paris Truck</option>
+				<option value="Bear Grizzly">Bear Grizzly</option>
+				<option value="Mindless RK">Mindless RK</option>
+			</select>
+			<br>
+			<label for="Llanta">Llanta:</label>
+			<select name="Llanta" id="Llanta">
+				<option value="Divine Street Slayers">Divine Street Slayers</option>
+				<option value="Orangatang Cage">Orangatang Cage</option>
+				<option value="Orangatang Stimulus">Orangatang Stimulus</option>
+				<option value="Forward Bumpers">Forward Bumpers</option>
+				<option value="Sector 9 Butterballs">Sector 9 Butterballs</option>
+				<option value="Element Keith Haring">Element Keith Haring</option>
+			</select>
+			<br>
+			<label for="costo">Costo estimado:</label>
+			<input type="text" name="costo" disabled="disbabled" id="costo">
+			<br>
+			<input type="button" name="Calcular Costo" value="Calcular Costo" onclick="calcularCosto()">	
+		</section>
+			
+
+	<br>
+	<footer>
+		<div id="pie">
+			<div class="menu_pie">
+				<ul><a href="Productos.html" title="">Productos</a>
+					<li><a href="Longboards.html" title=""></a>Longboards</li>
+					<li><a href="#" title="">Tablas</a></li>
+					<li><a href="Llantas.html" title="">Llantas</a></li>
+					<li><a href="Trucks.html" title="">Trucks</a></li>
+				</ul>
+			</div>
+				
+			<div class="menu_pie">		
+				<ul><a href="SobreNosotros.html" title="">Sobre Nosotros</a>
+					<li><a href="#" title="">Misión</a></li>
+					<li><a href="#" title="">Visión</a></li>
+				</ul>
+			</div>
+				
+			<div class="menu_pie" id="contacto">
+				<ul><a href="Contactenos.html" title="">Contáctenos</a>
+					<li>(506)88-8888-88</li>
+					<li>caliberilongboardstore@gmail.com</li>
+				</ul>
+			</div>
+				
+			<div id="redes">		
+				<ul>Redes Sociales
+				<br>
+					<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram""></i></a>
+					<a href="https://cr.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+					<a href="https://plus.google.com/discover"><i class="fab fa-google-plus"></i></a>
+				</ul>
+			</div>		
+		</div>	
+	</footer>	
+	<script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="js/Longboards.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>
